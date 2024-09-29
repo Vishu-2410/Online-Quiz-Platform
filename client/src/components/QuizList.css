@@ -1,0 +1,58 @@
+/* QuizList.css */
+
+/* Main container styles */
+.quiz-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Content container styles */
+  .content-container {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* List container styles */
+  .list-container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-container li {
+    margin-bottom: 10px;
+  }
+  
+  .list-container li a {
+    display: block;
+    padding: 15px;
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .list-container li a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .list-container li a:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); /* Blue outline on focus */
+  }
+  

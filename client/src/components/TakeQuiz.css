@@ -1,0 +1,81 @@
+/* TakeQuiz.css */
+
+/* Main container styles */
+.take-quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Quiz container styles */
+  .quiz-container {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    background: linear-gradient(135deg, #4d75e3, #3cb6ff);
+    /* background-color: #fff; White background */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Question styles */
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Option styles */
+  .option-container {
+    margin-bottom: 10px;
+  }
+  
+  .option-container label {
+    font-size: 1.5rem;
+    margin-left: 8px;
+  }
+  
+  .option-container input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  /* Button styles */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .button-container button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #064486;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #0c57a8;
+  }
+  
+  .button-container button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+  }
+  
